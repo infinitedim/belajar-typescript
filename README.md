@@ -13,7 +13,7 @@ npm install
 - run the program
 
 ```bash
-yarn tsc filename.ts  -for compile without watch 
-yarn ts filename.ts  -for compile with watch
-yarn dev compileresult.js -for run JavaScript file after compiling
+tsc filename.ts  -for compile without watch 
+tsc filename.ts -w (-for compile with watch)
+node filename.js -for run JavaScript file after compiling
 ```
