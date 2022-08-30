@@ -1,15 +1,16 @@
+/* eslint-disable prefer-const */
 let employee: object;
 
 employee = {
-    firstName: 'John',
-    lastName: 'Smith',
+    firstName: "John",
+    lastName: "Smith",
     age: 30,
-    jobTitle: 'Web Developer',
+    jobTitle: "Web Developer",
 };
 
 
 
-let employee2: {
+const employee2: {
     firstName: string,
     lastName: string,
     age: number,
@@ -23,4 +24,5 @@ let employee2: {
     haveAJob: true
 }
 
+console.log(employee)
 console.log(employee2)
