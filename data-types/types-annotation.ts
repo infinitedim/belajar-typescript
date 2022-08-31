@@ -72,3 +72,11 @@ greeting = function (name: string) {
 };
 
 greeting("Dimas");
+
+// The following causes an error because the function that is assigned to the greeting variable doesn’t match with its function type.
+
+// greeting = function () {
+//     console.log('Hello');
+// };
+
+// Type '() => void' is not assignable to type '(name: string) => string'
