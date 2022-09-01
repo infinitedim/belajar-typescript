@@ -99,5 +99,13 @@
     "skipLibCheck": true
     /* Skip type checking all .d.ts files. */
   },
-  "include": ["basic-types"]
+  "include": [
+    "advanced-types",
+    "basic-types",
+    "classes",
+    "control-flow",
+    "functions",
+    "generics",
+    "interfaces"
+  ]
 }
