@@ -4,7 +4,7 @@ This repo i created for learning typescript programming languages
 
 ## How to use
 
-- installing dependencies
+-   installing dependencies
 
 ```bash
 yarn && yarn upgrade
@@ -12,7 +12,7 @@ or
 npm install
 ```
 
-- run the program
+-   run the program
 
 ```bash
 tsc filename.ts  -for compile without watch
