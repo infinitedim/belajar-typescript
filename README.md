@@ -2,99 +2,97 @@
 
 ## What Is TypeScript
 
--   ### TypeScript is a super set of JavaScript.
+- ### TypeScript is a super set of JavaScript.
 
--   ### TypeScript is a programming language - it contains all of JavaScript, and then a bit more.
+- ### TypeScript is a programming language - it contains all of JavaScript, and then a bit more.
 
--   ### TypeScript builds on top of JavaScript. First, you write the TypeScript code. Then, you compile the TypeScript code into plain JavaScript code using a TypeScript compiler.
+- ### TypeScript builds on top of JavaScript. First, you write the TypeScript code. Then, you compile the TypeScript code into plain JavaScript code using a TypeScript compiler.
 
-<br>
-<img src="https://www.typescripttutorial.net/wp-content/uploads/2020/05/what-is-typescript-typescript-and-js.png" alt="typescript" style="border-radius: 50%;"/>
 <br>
 
 ## Why TypeScript
 
-1. TypeScript is more reliable
-2. TypeScript is more explicit
+1. TypeScript adds a type system to help you avoid many problem with dynamix types in JavaScript
+2. TypeScript implements the future features of JavaScript a.k.a ES Next so that you can use them today
 
 <br>
 
 # Table of Content
 
--   ## Basic Types
+- ## Basic Types
 
-    -   [Any Types](basic-types/md/any.md)
-    -   [Array Types](basic-types/md/array.md)
-    -   [Boolean Types](basic-types/md/boolean.md)
-    -   [Enum Types](basic-types/md/enum.md)
-    -   [Never Types](basic-types/md/never.md)
-    -   [Number Types](basic-types/md/number.md)
-    -   [Object Types](basic-types/md/object.md)
-    -   [String Literal](basic-types/md/string-literal.md)
-    -   [String Types](basic-types/md/string.md)
-    -   [Tuple](basic-types/md/tuple.md)
-    -   [Types Annotation](basic-types/md/types-annotation.md)
-    -   [Union Types](basic-types/md/union.md)
-    -   [Void Types](basic-types/md/void.md)
+  - [Any Types](md/types/basic/any.md)
+  - [Array Types](md/types/basic/array.md)
+  - [Boolean Types](md/types/basic/boolean.md)
+  - [Enum Types](md/types/basic/enum.md)
+  - [Never Types](md/types/basic/never.md)
+  - [Number Types](md/types/basic/number.md)
+  - [Object Types](md/types/basic/object.md)
+  - [String Literal](md/types/basic/string-literal.md)
+  - [String Types](md/types/basic/string.md)
+  - [Tuple](md/types/basic/tuple.md)
+  - [Types Annotation](md/types/basic/types-annotation.md)
+  - [Union Types](md/types/basic/union.md)
+  - [Void Types](md/types/basic/void.md)
 
--   ## Control Flow
+- ## Control Flow
 
-    -   [Break](control-flow/md/break.md)
-    -   [Continue](control-flow/md/continue.md)
-    -   [Do While](control-flow/md/doWhile.md)
-    -   [For](control-flow/md/for.md)
-    -   [If Else](control-flow/md/ifElse.md)
-    -   [Switch Case](control-flow/md/switchCase.md)
-    -   [While](control-flow/md/while.md)
+  - [Break](md/controlFlow/break.md)
+  - [Continue](md/controlFlow/continue.md)
+  - [Do While](md/controlFlow/doWhile.md)
+  - [For](md/controlFlow/for.md)
+  - [If Else](md/controlFlow/ifElse.md)
+  - [Switch Case](md/controlFlow/switchCase.md)
+  - [While](md/controlFlow/while.md)
 
--   ## Functions
+- ## Functions
 
-    -   [Default Parameter](functions/md/defaultParameter.md)
-    -   [Function Overloading](functions/md/functionOverloading.md)
-    -   [Function](functions/md/functions.md)
-    -   [Function Types](functions/md/functionTypes.md)
-    -   [Optional Parameter](functions/md/optionalParameter.mdd)
-    -   [Rest Parameter](functions/md/restParameter.md)
+  - [Default Parameter](md/functions/defaultParameter.md)
+  - [Function Overloading](md/functions/functionOverloading.md)
+  - [Function](md/functions/functions.md)
+  - [Function Types](md/functions/functionTypes.md)
+  - [Optional Parameter](md/functions/optionalParameter.mdd)
+  - [Rest Parameter](md/functions/restParameter.md)
 
--   ## Classes
+- ## Classes
 
-    -   [Abstract Classes](classes/md/abstractClasses.md)
-    -   [Access Modifier](classes/md/accessModifier.md)
-    -   [Classes](classes/md/classes.md)
-    -   [Getter And Setter](classes/md/getterAndSetter.md)
-    -   [Inheritance](classes/md/inheritance.md)
-    -   [Read Only Modifier](classes/md/readOnlyModifier.md)
-    -   [Static Method And Properties](classes/md/staticMethodAndProperties.md)
+  - [Abstract Classes](md/classes/abstractClasses.md)
+  - [Access Modifier](md/classes/accessModifier.md)
+  - [Classes](md/classes/classes.md)
+  - [Getter And Setter](md/classes/getterAndSetter.md)
+  - [Inheritance](md/classes/inheritance.md)
+  - [Read Only Modifier](md/classes/readOnlyModifier.md)
+  - [Static Method And Properties](md/classes/staticMethodAndProperties.md)
 
--   ## Interfaces
+- ## Interfaces
 
-    -   [Intefaces](interfaces/md/interfaces.md)
-    -   [Extending Interface](interfaces/md/extendingInterfaces.md)
+  - [Intefaces](md/interface/interfaces.md)
+  - [Extending Interface](md/interface/extendingInterfaces.md)
 
--   ## Advanced Types
+- ## Advanced Types
 
-    -   [Intersection Types](advanced-types/md/intersectionTypes.md)
-    -   [Type Assertion](advanced-types/md/typeAssertion.md)
-    -   [Type Guard](advanced-types/md/typeGuard.md)
+  - [Intersection Types](md/types/advanced/intersectionTypes.md)
+  - [Type Assertion](md/types/advanced/typeAssertion.md)
+  - [Type Guard](md/types/advanced/typeGuard.md)
 
--   ## Generics
+- ## Generics
 
-    -   [Generic Classes](generics/md/genericClasses.md/free-programming-books-vi.md)
-    -   [Generic Constraint](generics/md/genericConstraint.md)
-    -   [Generic Interfaces](generics/md/genericInterfaces.md)
-    -   [Generic](generics/md/generic.md)
+  - [Generic](md/gen/generic.md)
+  - [Generic Classes](md/gen/genericClasses.md/free-programming-books-vi.md)
+  - [Generic Constraint](md/gen/genericConstraint.md)
+  - [Generic Interfaces](md/gen/genericInterfaces.md)
 
 <br>
 
 # Other Language?
 
--   Cooming soon
+- Cooming soon
 
 <br>
 
 ## How to use
 
--   installing dependencies
+- installing dependencies
 
 ```bash
 yarn && yarn upgrade
@@ -102,14 +100,12 @@ or
 npm install
 ```
 
--   run the program
+- run the program
 
 ```bash
 tsc filename.ts  -for compile without watch
 tsc filename.ts -w (-for compile with watch)
 node filename.js -for run JavaScript file after compiling
-
-
 ```
 
 <br>
@@ -123,7 +119,7 @@ Javascript files is ignore in .gitignore files if your want to unignore you can 
 ## Contributing
 
 Contributing Guidelines
-Read through our <a href="https://github.com/infinitedim/belajar-typescript/blob/main/CONTRIBUTING.md">Contributing Guidelines</a> to learn about how contribute to this project.
+Read through our <a href="https://github.com/infinitedim/belajar-typescript/blob/dev/.github/CONTRIBUTING.md">Contributing Guidelines</a> to learn about how contribute to this project.
 
 <br>
 
