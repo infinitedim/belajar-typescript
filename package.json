@@ -1,8 +1,8 @@
 {
   "name": "belajar-typescript",
   "version": "1.0.0",
-  "main": "index.js",
-  "pritave": "true",
+  "main": "hello.ts",
+  "private": "true",
   "scripts": {
     "tsc": "rm -rf ./build/ && tsc",
     "ts": "rm -rf ./build/ && tsc -w",
@@ -10,13 +10,13 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
+  "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "@typescript-eslint/parser": "^5.35.1",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "nodemon": "^2.0.15",
     "prettier": "^2.7.1",
     "typescript": "^4.6.2"
   }
